@@ -23,7 +23,7 @@ public:
 	string Perv();
 	double calculate();
 	RPL(string tmp = "")	{
-		Infix = tmp;
+		Infix = tmp + " ";
 		Postfix = "";
 	}
 
